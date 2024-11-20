@@ -1,12 +1,12 @@
 # Web Programming Project - FCI  
 **Course:** Web Programming  
-**Objective:** Build a dynamic e-commerce platform with key functionalities.
+**Objective:** Build a dynamic e-commerce platform with key functionalities.  
 
 ---
 
 ## **Project Structure**
 
-### **Landing Page**  
+### **Shared Elements**  
 #### **Header**  
 - **Search** ❎ (*Should link but is not functional due to course scope*)  
 - **Cart** ✅ (*Links to the cart page*)  
@@ -14,44 +14,54 @@
 - **Logo** ✅ (*Links back to the homepage*)  
 - **Profile** ❎ (*Dropdown with* Login ✅ *and* Sign Up ✅)  
 
-#### **Content**  
+#### **Footer**  
+- **Useful Links:** *Home ✅ | Category ✅ | Contact Us ✅*  
+- **Brand Logo** ✅  
+- **Copyright** ✅  
+
+---
+
+### **Pages**  
+
+#### **Landing Page**  
+**Content:**  
 - Ads Slideshow ✅  
 - Popular Products (2) ✅  
 - About Section ✅  
 
-#### **Footer**  
-- Useful Links: *Home ✅ | Category ✅ | Contact Us ✅*  
-- Brand Logo ✅  
-- Copyright ✅  
+---
+
+#### **Auth Page**  
+**Content:**  
+- Dynamic Login/Register Form ✅  
 
 ---
 
-### **Auth Page**  
-**Header:** Same as **Landing Page**.  
-**Content:** Dynamic Login/Register Form ✅  
-**Footer:** Same as **Landing Page**.  
-
----
-
-### **Cart Page**  
-**Header:** Same as **Landing Page**.  
+#### **Cart Page**  
 **Content:**  
 - Cart Items ➖ (*Static placeholder*)  
 - Cart Item Details ➖ (*Static placeholder*)  
 
-**Footer:** Same as **Landing Page**.  
-
 ---
 
-### **Product Details Page**  
-**Header:** Same as **Landing Page**.  
+#### **Product Details Page**  
 **Content:**  
 - Product Image ➖ (*Static placeholder*)  
-**Footer:** Same as **Landing Page**.  
 
 ---
 
-## **Legend**
+#### **Products Page**  
+**Content:**  
+- Products Filter ✅ (*Allows filtering by criteria*)  
+- Products List (Limited to 10, updates with filter) ✅  
+  - **Image** ➖ (*Static placeholder*)  
+  - **Price** ➖ (*Static placeholder*)  
+  - **Name** ➖ (*Static placeholder*)  
+  - **Short Description** ➖ (*Static placeholder*)  
+
+---
+
+## **Legend**  
 | Symbol | Meaning                                       |  
 |--------|----------------------------------------------|  
 | ✅      | Functional, links to other pages            |  
@@ -61,4 +71,4 @@
 ---
 
 ## **Acknowledgment**  
-This project is developed for the **Web Programming course** at FCI. It highlights the integration of dynamic features, placeholder elements, and project limitations based on the curriculum.
+This project is developed for the **Web Programming course** at FCI. It demonstrates dynamic features, placeholder elements, and limitations based on the course scope.  
