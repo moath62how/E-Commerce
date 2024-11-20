@@ -1,53 +1,73 @@
-# Project Structure
-
-## **Landing Page**
-### Header
-- [ ] **Search**
-- [x] **Cart**
-- [x] **Categories**
-- [x] **Logo**
-- [ ] **Profile**
-  - [x] **Login**
-  - [x] **Sign Up**
-
-### Content
-- [x] **Ads Slideshow**
-- [x] **2 Popular Products in a Certain Category**
-- [x] **Small About Section**
-
-### Footer
-- **Useful Links**
-  - [x] Home
-  - [x] Category
-- [x] **Follow Us**
-- [x] **Brand Logo**
-- [x] **Copyrights**
+# Web Programming Project - FCI  
+**Course:** Web Programming  
+**Objective:** Build a dynamic e-commerce platform with key functionalities.
 
 ---
 
-## **Auth Pages**
-### Header
-- [ ] **Search**
-- [x] **Cart**
-- [x] **Categories**
-- [x] **Logo**
-- [ ] **Profile**
-  - [x] **Login**
-  - [x] **Sign Up**
+## **Project Map**
 
-### Content
-- [x] **Dynamic Login/Register Form**
+### **Landing Page**  
+**Header:**  
+→ **Search** ❎  
+→ **Cart** ✅  
+→ **Categories** ✅  
+→ **Logo** ✅  
+→ **Profile** ❎ (*Login ✅ | Sign Up ✅*)  
 
-### Footer
-- **Useful Links**
-  - [x] Home
-  - [x] Category
-- [x] **Follow Us**
-- [x] **Brand Logo**
-- [x] **Copyrights**
+**Content:**  
+→ Ads Slideshow ✅  
+→ Popular Products (2) ✅  
+→ About Section ✅  
+
+**Footer:**  
+→ Useful Links: *Home ✅ | Category ✅ | Contact Us ✅*  
+→ Brand Logo ✅  
+→ Copyright ✅  
 
 ---
 
-## **Cart Page**
-### Design
-- Make it look **cool** and **user-friendly**!
+### **Auth Page**  
+**Header:** Same as **Landing Page**.  
+
+**Content:**  
+→ Dynamic Login/Register Form ✅  
+
+**Footer:** Same as **Landing Page**.  
+
+---
+
+### **Cart Page**  
+**Header:** Same as **Landing Page**.  
+
+**Content:**  
+→ Cart Items ➖  
+→ Cart Item Details ➖  
+
+**Footer:**  
+→ Useful Links: *Home ✅ | Category ✅ | Contact Us ✅*  
+→ Brand Logo ✅  
+→ Copyright ✅  
+
+---
+
+### **Product Details Page**  
+**Header:** Same as **Landing Page**.  
+
+**Content:**  
+→ Product Image ➖  
+
+**Footer:** Same as **Landing Page**.  
+
+---
+
+## **Legend**
+| Symbol | Meaning                         |  
+|--------|---------------------------------|  
+| ✅      | Dynamic, links to other pages  |  
+| ➖      | Static, non-interactive        |  
+| ❎      | Static, no link functionality  |  
+
+---
+
+## **Acknowledgment**  
+This project is developed for the Web Programming course at FCI, showcasing dynamic navigation, placeholders, and interactive design.  
